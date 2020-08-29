@@ -1,5 +1,9 @@
 # CPU temperature visualizar for python
 
+
+根本的な問題としてパフォーマンスモニタつけないと温度が更新されないというのがあった。
+
+
 ## os popen 
 
 ```
