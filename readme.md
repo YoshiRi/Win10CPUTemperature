@@ -21,3 +21,19 @@ cmd = """wmic /namespace:\\\\root\\wmi PATH MSAcpi_ThermalZoneTemperature get Cu
 ```
 
 - remove \n and \r
+
+```
+re.split('[\n\r]', out)
+```
+
+- remove null list
+
+```
+[x for x in re.split('[\n\r=]', out) if x]
+```
+
+
+remove Text
+```
+re.split('[\n\r=]', out)
+```
